@@ -6,6 +6,7 @@ int fun(int n) {
     double i = 0;
 
     while(i <= n) {
+        y = y + pow(2.0, i);
         i = i + 1;
     }
     return y;
